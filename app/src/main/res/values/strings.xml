@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FlashCardz</string>
+    <string name="APIURL"></string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_Course">New Course</string>
+    <string name="lbl_Course_Name">Name:</string>
+    <string name="btn_Add_Course">Create Course</string>
+    <string name="lbl_Course_Location">Location:</string>
+    <string name="error_no_name">Please enter a name</string>
+    <string name="error_no_location">Please enter a location</string>
+</resources>

@@ -1,0 +1,4 @@
+#Thu Aug 16 00:21:38 CEST 2018
+base.0=/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/transforms/dexMerger/debug/5
+path.0=classes.dex
+renamed.0=classes.dex
