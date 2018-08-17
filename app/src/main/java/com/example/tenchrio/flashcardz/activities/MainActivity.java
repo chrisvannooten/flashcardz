@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         myCourses = (ArrayList<Course>)myCourseDAO.getAllCourses();
         initAdapter();
 
-        final Context test = this;
         myLstCourse.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

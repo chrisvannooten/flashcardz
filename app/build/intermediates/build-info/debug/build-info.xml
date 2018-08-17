@@ -7,35 +7,31 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.1.4"
-    timestamp="1534466436434"
+    timestamp="1534536651790"
     token="4632238069063596683"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="64" />
+        duration="35" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="16" />
+        duration="11" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
-    <artifact
-        location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
     <artifact
         location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1534455563331"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1534525450631"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
@@ -43,31 +39,31 @@
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -76,59 +72,38 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1534456321394"
+        timestamp="1534536611175"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1534458885836"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1534463628224"
-        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
         <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="METHOD_ADDED"
-        timestamp="1534464089914"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1534466436434"
+        timestamp="1534536651790"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
         <artifact
             location="/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />

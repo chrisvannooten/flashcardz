@@ -75,7 +75,7 @@ public class AddChapterActivity extends AppCompatActivity {
         if (view.getId() == R.id.btnAddFlashcard)
         {
             String question = myTxtQuestion.getText().toString();
-            String answer = myTxtQuestion.getText().toString();
+            String answer = myTxtAnswer.getText().toString();
 
             if(question.isEmpty()){
                 myTxtQuestion.setError("Please give a valid Question");

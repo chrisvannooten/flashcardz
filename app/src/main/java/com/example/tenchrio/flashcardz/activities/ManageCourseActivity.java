@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -41,6 +42,17 @@ public class ManageCourseActivity extends AppCompatActivity {
             myChapters = (ArrayList<Chapter>) myChapterDAO.getAllChaptersForCourse(courseId);
         }
         initAdapter();
+
+        myLstChapter.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                Chapter chapter = myChapters.get(i);
+                Intent intent = new Intent(ManageCourseActivity.this, CardActivity.class);
+                intent.putExtra(getString(R.string.extra_chapter_id), chapter.getId());
+                startActivity(intent);
+            }
+        });
     }
 
     private void initAdapter() {

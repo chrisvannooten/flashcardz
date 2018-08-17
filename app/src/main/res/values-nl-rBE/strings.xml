@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashCardz</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="btn_Course">Nieuwe Opleiding</string>
+    <string name="btn_Chapter">Nieuw Hoofdstuk</string>
+    <string name="btn_Add_Course">Maak Opleiding</string>
+    <string name="btn_Add_Chapter">Maak Hoofdstuk</string>
+    <string name="btn_Setting_EmptyDB">Legen</string>
+    <string name="btn_FlashCard">Toevoegen</string>
+    <string name="lbl_Course_Name">Naam:</string>
+    <string name="lbl_Course_Location">Locatie</string>
+    <string name="lbl_Setting_Database">Leeg Database?</string>
+    <string name="lbl_Setting_API">Zet API:</string>
+    <string name="lbl_Chapter_FlashCardList">FlashKaarten:</string>
+    <string name="hint_Name">Naam</string>
+    <string name="hint_Question">Vraag</string>
+    <string name="hint_Answer">Antwoord</string>
+    <string name="error_no_name">Vul aub een naam in</string>
+    <string name="error_no_location">Vul aub een locatie in</string>
+    <string name="hello_blank_fragment">Hallo Blank Fragment</string>
+</resources>
