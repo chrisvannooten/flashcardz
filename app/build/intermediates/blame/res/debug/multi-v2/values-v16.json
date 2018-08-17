@@ -4,17 +4,7 @@
             "outputFile": "/home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/tenchrio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/1d917e0154d4a7194120114b878bedf7/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/tenchrio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/2985ab2ad69e76b93a44ab61bcc674c3/res/values-v16/values-v16.xml",
+                    "source": "/home/tenchrio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/44acad80dc5c839c30feb2e324549628/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/tenchrio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/b5af164794704a810e3521cb18deb678/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

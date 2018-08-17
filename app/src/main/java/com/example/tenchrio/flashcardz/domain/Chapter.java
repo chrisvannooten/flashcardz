@@ -50,4 +50,13 @@ public class Chapter extends abstractModel {
         this.naam = naam;
         this.myFlashCards = new ArrayList<FlashCard>();
     }
+
+    public Chapter() {
+        this.myFlashCards = new ArrayList<FlashCard>();
+    }
+
+    @Override
+    public String toString() {
+        return naam;
+    }
 }

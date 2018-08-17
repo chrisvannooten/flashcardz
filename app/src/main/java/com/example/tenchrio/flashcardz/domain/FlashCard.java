@@ -33,4 +33,9 @@ public class FlashCard extends abstractModel {
         this.question = question;
         this.answer = answer;
     }
+
+    @Override
+    public String toString() {
+        return "Q:" + question + "\n A:" + answer;
+    }
 }

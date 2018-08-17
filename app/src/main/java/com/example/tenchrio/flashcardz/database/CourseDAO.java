@@ -35,14 +35,11 @@ public class CourseDAO {
 
     public List<Course> getAllCourses()
     {
-        // Gets the data repository in read mode
         SQLiteDatabase db = fcDbHelper.getReadableDatabase();
 
-        // Create SQL query
         String selectQuery = "SELECT * FROM " +
                 DatabaseContract.CourseEntry.TABLE_NAME;
 
-        // Execute query, this will return a cursor that can be used to iterate results
         Cursor c = db.rawQuery(selectQuery, null);
         ArrayList<Course> courses = new ArrayList<>();
         if (c != null) {
@@ -57,6 +54,29 @@ public class CourseDAO {
         }
 
         return courses;
+    }
+
+    public Course getCourseByID(long courseID)
+    {
+        SQLiteDatabase db = fcDbHelper.getReadableDatabase();
+
+        String selectQuery = "SELECT * FROM " +
+                DatabaseContract.CourseEntry.TABLE_NAME +
+                " WHERE " + DatabaseContract.CourseEntry._ID + " = " + courseID;
+
+        Cursor c = db.rawQuery(selectQuery, null);
+        Course reCourse = new Course();
+        if (c != null) {
+            while(c.moveToNext()){
+                reCourse = new Course(c.getString(c.getColumnIndex(DatabaseContract.CourseEntry.COLUMN_NAME_NAME)),c.getString(c.getColumnIndex(DatabaseContract.CourseEntry.COLUMN_NAME_LOCATION)));
+                reCourse.setId(c.getInt(c.getColumnIndex(DatabaseContract.CourseEntry._ID)));
+                reCourse.setCreator(c.getString(c.getColumnIndex(DatabaseContract.CourseEntry.COLUMN_NAME_CREATOR)));
+            }
+
+            c.close();
+        }
+
+        return reCourse;
     }
 
 

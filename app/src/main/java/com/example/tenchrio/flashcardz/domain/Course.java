@@ -70,6 +70,10 @@ public class Course extends abstractModel {
         this.myChapter = new ArrayList<Chapter>();
     }
 
+    public Course() {
+        this.myChapter = new ArrayList<Chapter>();
+    }
+
     @Override
     public String toString() {
         return this.naam + " by " + this.creator;

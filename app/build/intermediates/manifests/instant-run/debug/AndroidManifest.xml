@@ -26,6 +26,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.tenchrio.flashcardz.activities.addCourseActivity" />
+        <activity android:name="com.example.tenchrio.flashcardz.activities.ManageCourseActivity" />
+        <activity android:name="com.example.tenchrio.flashcardz.activities.SettingActivity" />
+        <activity android:name="com.example.tenchrio.flashcardz.activities.AddChapterActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

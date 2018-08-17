@@ -74,10 +74,6 @@ public class FlashCardDBHelper extends SQLiteOpenHelper{
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        // in case of an upgrade, drop all tables and call onCreate to create them again
-        // Note: this is easy for testing, but obviously not a good idea in a
-        // production environment when the database contains data that shouldn't be removed.
-        // In that case, you should check the version number and perform the necessary migrations
         db.execSQL(SQL_DELETE_COURSES);
         db.execSQL(SQL_DELETE_CHAPTERS);
         db.execSQL(SQL_DELETE_FLASHCARDS);

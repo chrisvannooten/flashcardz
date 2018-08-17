@@ -42,13 +42,9 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 Course course = myCourses.get(i);
-                String myTxt = "Course is " + course.getId();
-                Toast.makeText(test,myTxt,Toast.LENGTH_SHORT).show();
-                /*
-                Intent intent = new Intent(MainActivity.this, AlbumActivity.class);
-                //add the artist id to the intent
-                intent.putExtra(getString(R.string.extra_artist_id), artist.getId());
-                startActivity(intent);*/
+                Intent intent = new Intent(MainActivity.this, ManageCourseActivity.class);
+                intent.putExtra(getString(R.string.extra_course_id), course.getId());
+                startActivity(intent);
             }
         });
 
@@ -71,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
 
         if(id == R.id.menu_nothing){
             Toast.makeText(this,"Why did you feel the need to press that?",Toast.LENGTH_SHORT).show();
+        }
+        if(id == R.id.menu_settings){
+            Intent intent = new Intent(MainActivity.this, SettingActivity.class);
+            startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }

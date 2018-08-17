@@ -19,7 +19,7 @@ public class FlashCardDAO {
         fcDbHelper = FlashCardDBHelper.getInstance(context);
     }
 
-    public FlashCard addFlashCard(FlashCard newFlashCard, Integer chapterId) {
+    public FlashCard addFlashCard(FlashCard newFlashCard, long chapterId) {
         SQLiteDatabase db = fcDbHelper.getWritableDatabase();
 
         ContentValues values = new ContentValues();
@@ -34,17 +34,14 @@ public class FlashCardDAO {
         return newFlashCard;
     }
 
-    public List<FlashCard> getAllFlashCardsForChapter(int chapterID)
+    public List<FlashCard> getAllFlashCardsForChapter(long chapterID)
     {
-        // Gets the data repository in read mode
         SQLiteDatabase db = fcDbHelper.getReadableDatabase();
 
-        // Create SQL query
         String selectQuery = "SELECT * FROM " +
                 DatabaseContract.FlashCardEntry.TABLE_NAME +
                 " WHERE " + DatabaseContract.FlashCardEntry.COLUMN_NAME_CHAPTERID + " = " + chapterID;
 
-        // Execute query, this will return a cursor that can be used to iterate results
         Cursor c = db.rawQuery(selectQuery, null);
         ArrayList<FlashCard> cards= new ArrayList<>();
         if (c != null) {

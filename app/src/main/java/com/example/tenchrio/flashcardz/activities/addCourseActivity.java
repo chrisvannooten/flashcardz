@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.tenchrio.flashcardz.R;
 import com.example.tenchrio.flashcardz.database.CourseDAO;
@@ -53,6 +54,7 @@ public class addCourseActivity extends AppCompatActivity {
                 myCourse.setCreator("local");
                 myCourseDAO = new CourseDAO(this);
                 myCourseDAO.addCourse(myCourse);
+                Toast.makeText(this,"Course "+ myCourse.getNaam() + " created",Toast.LENGTH_SHORT).show();
                 finish();
             }
         }
