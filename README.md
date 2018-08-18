@@ -1,7 +1,8 @@
 # flashcardz
 Simple flashcard App
 
-##Animation Package
+## Animation Package
+
 I did not write anything in the Animation package, I obtained the 2 classes from http://genzeb.github.io/flip/.
 The 2 Classes are required to make the flip animation of the flashcards work.
 ##Unfinished
