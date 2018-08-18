@@ -5,7 +5,7 @@ Simple flashcard App
 
 I did not write anything in the Animation package, I obtained the 2 classes from http://genzeb.github.io/flip/.
 The 2 Classes are required to make the flip animation of the flashcards work.
-##Unfinished
+## Unfinished
 My original plan was to create an API system alongside it, due to time constraints this did not follow through.
 The API would have taken care of user logon through tokens, and allowed you to upload your courses to a server
 which is also why you see "created by" with courses.
