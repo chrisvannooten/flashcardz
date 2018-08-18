@@ -20,7 +20,8 @@
         <activity android:name=".activities.ManageCourseActivity" />
         <activity android:name=".activities.SettingActivity" />
         <activity android:name=".activities.AddChapterActivity" />
-        <activity android:name=".activities.CardActivity"></activity>
+        <activity android:name=".activities.CardActivity" />
+        <activity android:name=".activities.AboutActivity"></activity>
     </application>
 
 </manifest>

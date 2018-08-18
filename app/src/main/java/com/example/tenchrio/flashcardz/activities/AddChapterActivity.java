@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 import com.example.tenchrio.flashcardz.R;
 import com.example.tenchrio.flashcardz.database.ChapterDAO;
-import com.example.tenchrio.flashcardz.database.CourseDAO;
 import com.example.tenchrio.flashcardz.database.FlashCardDAO;
 import com.example.tenchrio.flashcardz.domain.Chapter;
 import com.example.tenchrio.flashcardz.domain.FlashCard;

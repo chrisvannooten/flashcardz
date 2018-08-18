@@ -24,6 +24,7 @@ public class addCourseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_course);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
+        setTitle(getString(R.string.btn_Add_Course));
 
         myTxtName = (EditText) findViewById(R.id.txt_Name);
         myTxtLocation = (EditText) findViewById(R.id.txt_Location);

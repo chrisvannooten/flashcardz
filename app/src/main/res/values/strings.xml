@@ -9,12 +9,14 @@
     <string name="btn_Add_Chapter">Create Chapter</string>
     <string name="btn_Setting_EmptyDB">Empty</string>
     <string name="btn_FlashCard">Add</string>
+    <string name="btn_Backup">Backup</string>
 
     <string name="lbl_Course_Name">Name:</string>
     <string name="lbl_Course_Location">Location:</string>
     <string name="lbl_Setting_Database">Empty Database?</string>
     <string name="lbl_Setting_API">Set API:</string>
     <string name="lbl_Chapter_FlashCardList">Flashcards:</string>
+    <string name="lbl_Backup">Backup Database</string>
 
     <string name="hint_Name">Name</string>
     <string name="hint_Question">Question</string>
@@ -26,6 +28,9 @@
     <string name="extra_course_id" translatable="false">course_id</string>
     <string name="extra_chapter_id" translatable="false">course_id</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutText">
+        Some features are not fully implemented and may have left remnants (like the API system which would have allowed for user logon and downloading Courses from the server). \n
+        The animation package contains classes from Ephraim Tekle genzeb, which are required for the animation in the card activity to work, I did not write these and included them directly as it is less of a hassle than doing so with a seperate library. \n
+        The icon is self made using Blender rendered at 1000by1000px, 1024 bounces and denoising on.
+    </string>
 </resources>

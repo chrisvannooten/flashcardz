@@ -13,7 +13,6 @@ import com.example.tenchrio.flashcardz.R;
 import com.example.tenchrio.flashcardz.database.ChapterDAO;
 import com.example.tenchrio.flashcardz.database.CourseDAO;
 import com.example.tenchrio.flashcardz.domain.Chapter;
-import com.example.tenchrio.flashcardz.domain.Course;
 
 import java.util.ArrayList;
 

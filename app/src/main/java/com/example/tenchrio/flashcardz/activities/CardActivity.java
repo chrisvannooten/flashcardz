@@ -8,13 +8,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TableRow;
-import android.widget.TextView;
-import android.widget.Toolbar;
 import android.widget.ViewAnimator;
 import android.widget.ViewFlipper;
 
@@ -60,12 +57,16 @@ public class CardActivity extends FragmentActivity {
             myFlippers.get(i).isClickable();
             myFlippers.get(i).setPadding(90,90,90,90);
             lay.addView(myFlippers.get(i));
+
+
             FrontCardFragment frontCard = FrontCardFragment.newInstance(myCards.get(i).getQuestion());
             BackCardFragment backCard = BackCardFragment.newInstance(myCards.get(i).getAnswer());
             myFragmentTransaction = myFragmentManager.beginTransaction();
             myFragmentTransaction.add(myFlippers.get(i).getId(),frontCard,"FrontFragment");
             myFragmentTransaction.add(myFlippers.get(i).getId(),backCard,"BackFragment");
             myFragmentTransaction.commit();
+
+
             myAnimators.add(myFlippers.get(i));
             final ViewAnimator myVA = myAnimators.get(i);
             myAnimators.get(i).setOnClickListener(new View.OnClickListener() {

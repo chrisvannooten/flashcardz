@@ -58,7 +58,7 @@ public class FlashCardDBHelper extends SQLiteOpenHelper{
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
-    static synchronized FlashCardDBHelper getInstance(Context context) {
+    public static synchronized FlashCardDBHelper getInstance(Context context) {
         if (sInstance == null) {
             sInstance = new FlashCardDBHelper(context.getApplicationContext());
         }
@@ -84,4 +84,5 @@ public class FlashCardDBHelper extends SQLiteOpenHelper{
     public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         onUpgrade(db, oldVersion, newVersion);
     }
+
 }

@@ -1,6 +1,6 @@
 package com.example.tenchrio.flashcardz.activities;
 
-import android.content.Context;
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -69,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
         }
         if(id == R.id.menu_settings){
             Intent intent = new Intent(MainActivity.this, SettingActivity.class);
+            startActivity(intent);
+        }
+        if(id == R.id.menu_about){
+            Intent intent = new Intent(MainActivity.this, AboutActivity.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);

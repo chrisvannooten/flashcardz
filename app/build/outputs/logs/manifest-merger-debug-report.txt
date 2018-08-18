@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] /home/tenchrio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/44acad80dc5c839c30feb2e324549628/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/tenchrio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9bf445b77f8d426cdc9d54d8328a1b36/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0-rc01] /home/tenchrio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc01.aar/3b10fd0f606b8525f6b954782f8f21f7/AndroidManifest.xml:17:1-22:12
@@ -30,25 +30,25 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tenchrio/.gradle/cach
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tenchrio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6f6d286880e03a3affb73be91303219c/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/tenchrio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c8a26a99e69f2eeb20bc8d5928fa8873/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0-rc01] /home/tenchrio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc01.aar/42707948363cfcde7a9bad9cb3364ddb/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml
-		ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml
-		ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:5:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/tenchrio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9bf445b77f8d426cdc9d54d8328a1b36/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/tenchrio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9bf445b77f8d426cdc9d54d8328a1b36/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0-rc01] /home/tenchrio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/b5af164794704a810e3521cb18deb678/AndroidManifest.xml:22:5-94
@@ -100,9 +100,13 @@ ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/An
 	android:name
 		ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:22:19-64
 activity#com.example.tenchrio.flashcardz.activities.CardActivity
-ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:23:9-70
+ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:23:9-61
 	android:name
 		ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:23:19-58
+activity#com.example.tenchrio.flashcardz.activities.AboutActivity
+ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:24:9-71
+	android:name
+		ADDED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml:24:19-59
 uses-sdk
 INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/tenchrio/hddisk/Projects/Programming/FlashCardz/app/src/main/AndroidManifest.xml

@@ -30,6 +30,7 @@
         <activity android:name="com.example.tenchrio.flashcardz.activities.SettingActivity" />
         <activity android:name="com.example.tenchrio.flashcardz.activities.AddChapterActivity" />
         <activity android:name="com.example.tenchrio.flashcardz.activities.CardActivity" />
+        <activity android:name="com.example.tenchrio.flashcardz.activities.AboutActivity" />
     </application>
 
 </manifest>
